@@ -1,22 +1,37 @@
-header{
-    .container {
-        display: flex;
-        width: 90%;
-        margin: 0 auto;
-        justify-content: space-between;
-        padding: 20px 0;
-    }
+
+    // Nav Top
+
     .title,
     .log {
         display: flex;
         align-items: center;
+        color: $col-title;
 
     }
     .img-logo {
         height: 30px;
     }
     .privacy {
-        color: $col-title;
         font-size: 22px;
-    }  
+    }
+    
+    // Nav Bottom
+
+    .menu {
+        display: flex;
+        width: 100%;
+        list-style: none;
+        color: $col-title;
+        border-bottom: 1px solid $col-title;
+        
+        li {
+            margin-right: 30px;
+            padding-bottom: 10px;
+            cursor: pointer;
+            &:nth-child(5){
+                border-bottom: 2px solid $col-act-1;
+            }
+        }
+        
+    }
 }

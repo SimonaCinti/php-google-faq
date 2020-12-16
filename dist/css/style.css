@@ -12,22 +12,53 @@ body {
   margin-right: 15px;
 }
 
-header .container {
+.btn {
+  color: white;
+  cursor: pointer;
+  background: #1a73e8;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 5%;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #2b7de9;
+}
+
+.container {
   display: flex;
-  width: 90%;
-  margin: 0 auto;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 10px 20px;
+}
+
+header .navbar {
+  position: fixed;
 }
 header .title,
 header .log {
   display: flex;
   align-items: center;
+  color: #5f6368;
 }
 header .img-logo {
   height: 30px;
 }
 header .privacy {
-  color: #5f6368;
   font-size: 22px;
+}
+header .menu {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  color: #5f6368;
+  border-bottom: 1px solid #5f6368;
+}
+header .menu li {
+  margin-right: 30px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+header .menu li:nth-child(5) {
+  border-bottom: 2px solid #1a73e8;
 }

@@ -1,5 +1,30 @@
 // Utilities 
 
 .mr-15 {
-    margin-right: 15px;;
+    margin-right: 15px;
+}
+
+// Button
+
+.btn {
+    color: white;
+    cursor: pointer;
+    background: $col-act-1;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5%;
+    text-align: center;
+    &:hover{ 
+        background-color: $col-act-1-h;
+
+    }
+}
+
+// Containers
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
 }

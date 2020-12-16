@@ -18,6 +18,7 @@
     <!-- Header -->
     <header>
         <nav class="container">
+            <!-- Nav Top -->
             <div class="title">
                 <img class="img-logo mr-15"src="./img/goglogo.png" alt="logo">
                 <p class="privacy">Privacy e Termini</p>
@@ -26,6 +27,16 @@
                 <i class="fas fa-bars mr-15"></i>
                 <div class="btn">Accedi</div>
             </div>
+        </nav>
+        <!-- Nav Bottom -->
+        <nav class="container">
+            <ul class="menu">
+                <li>Introduzione</li>
+                <li>Norme sulla privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li>Domande frequenti</li>
+            </ul>
         </nav>
     </header>
     <!-- Main -->
