@@ -1,15 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .mr-15 {
   margin-right: 15px;
+}
+
+.small {
+  font-size: 11px;
 }
 
 .btn {
@@ -30,6 +24,26 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  color: #5f6368;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 header .navbar {
@@ -69,7 +83,39 @@ header .menu li:nth-child(5) {
 }
 
 main .container-main {
-  background-color: #b8b88f;
   width: 80%;
-  margin: 150px auto;
+  margin: 150px auto 50px;
+}
+main .faq-list h3 {
+  padding-bottom: 20px;
+}
+main .faq-list p {
+  margin-bottom: 20px;
+}
+
+footer {
+  border-top: 1px solid #5f6368;
+  background-color: #f5f5f5;
+  padding: 15px 0;
+}
+footer .container-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #5f6368;
+  width: 80%;
+  margin: 0 auto;
+}
+footer .container-footer .footer-list {
+  list-style: none;
+  display: flex;
+}
+footer .container-footer .footer-list li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+footer .container-footer .lang select {
+  width: 100px;
+}
+footer .container-footer .fa-globe {
+  color: #4bb5f8;
 }

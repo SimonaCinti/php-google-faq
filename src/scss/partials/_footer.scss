@@ -1,0 +1,31 @@
+
+footer{
+
+    border-top: 1px solid #5f6368;
+    background-color: $col-footer;
+    padding: 15px 0;
+    .container-footer{
+        display: flex;
+        justify-content: space-between;
+        color: $col-title;
+        width: 80%;
+        margin: 0 auto ;     
+        .footer-list {
+            list-style: none;
+            display: flex;
+            li {
+                margin-right: 10px;
+                cursor: pointer;
+            }
+        }
+        .lang {
+            select{
+                width: 100px;
+            }
+        }
+        .fa-globe{
+            color: #4bb5f8;
+        }
+    }
+}
+

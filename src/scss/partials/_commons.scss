@@ -6,3 +6,12 @@ box-sizing: border-box;
 body {
    font-family: 'Roboto', sans-serif;
 } 
+h3 {
+   font-size: 24px;
+   color: $col-title;
+}
+
+p {
+   font-size: 14px;
+   line-height: 1.6;
+}
