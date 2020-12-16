@@ -29,11 +29,17 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 20px 0;
 }
 
 header .navbar {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #5f6368;
+  max-height: 100px;
+  background-color: white;
 }
 header .title,
 header .log {
@@ -52,7 +58,6 @@ header .menu {
   width: 100%;
   list-style: none;
   color: #5f6368;
-  border-bottom: 1px solid #5f6368;
 }
 header .menu li {
   margin-right: 30px;
@@ -61,4 +66,11 @@ header .menu li {
 }
 header .menu li:nth-child(5) {
   border-bottom: 2px solid #1a73e8;
+}
+
+main .container-main {
+  background-color: #54544c;
+  width: 100%;
+  margin-top: 150px;
+  padding: 0 200px;
 }
