@@ -17,6 +17,10 @@ footer{
                 margin-right: 10px;
                 cursor: pointer;
             }
+            li:not(:last-of-type)::after{
+                content: " \00B7";
+                margin-left: 5px;
+            }
         }
         .lang {
             select{

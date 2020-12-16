@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .mr-15 {
   margin-right: 15px;
 }
@@ -112,6 +113,10 @@ footer .container-footer .footer-list {
 footer .container-footer .footer-list li {
   margin-right: 10px;
   cursor: pointer;
+}
+footer .container-footer .footer-list li:not(:last-of-type)::after {
+  content: " \B7";
+  margin-left: 5px;
 }
 footer .container-footer .lang select {
   width: 100px;
