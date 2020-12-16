@@ -69,8 +69,7 @@ header .menu li:nth-child(5) {
 }
 
 main .container-main {
-  background-color: #54544c;
-  width: 100%;
-  margin-top: 150px;
-  padding: 0 200px;
+  background-color: #b8b88f;
+  width: 80%;
+  margin: 150px auto;
 }
