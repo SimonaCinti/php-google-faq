@@ -1,0 +1,22 @@
+header{
+    .container {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    .title,
+    .log {
+        display: flex;
+        align-items: center;
+
+    }
+    .img-logo {
+        height: 30px;
+    }
+    .privacy {
+        color: $col-title;
+        font-size: 22px;
+    }  
+}
